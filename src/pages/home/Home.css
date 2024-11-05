@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2b2b2b;
+    padding: 20px;
+}
+
+.sidebar .menu, .sidebar .account {
+    margin-bottom: 30px;
+}
+
+.sidebar h2 {
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: #bbb;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #fff;
+}
+
+.upgrade-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.create-task {
+    padding: 10px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.tasks {
+    margin-bottom: 20px;
+}
+
+.priority-card {
+    background-color: #4db529;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.upcoming-card {
+    background-color: #25a3a2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.overdue-card {
+    background-color: #c3bc20;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.pending-card {
+    background-color: #cb2727;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.urgency {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.urgency-bar1 {
+    width: 90%;
+    background-color: #D2D2D2;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    height: 8px;
+}
+
+.urgency-bar2 {
+    width: 70%;
+    background-color: #D2D2D2;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    height: 8px;
+}
+
+.urgency-bar3 {
+    width: 40%;
+    background-color: #C2F1FE;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    height: 8px;
+}
+
+.urgency-bar4 {
+    width: 20%;
+    background-color: #EBFAFF;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    height: 8px;
+}
+
+.projects-name {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.workspace {
+    margin-bottom: 20px;
+}
+
+.project-row {
+    display: flex;
+}
+
+.project-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ddd;
+    margin-right: 10px;
+    flex: 1;
+}
+
+
+.my-task {
+    margin: 0px 0px 20px 0px
+}
+
+html, body {
+    height: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+h3 {
+    margin: 0px 0px 20px 0px
+}
